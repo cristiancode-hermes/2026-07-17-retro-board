@@ -1,0 +1,14 @@
+{
+  "name": "retro-board",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sprint retrospective board — Angular 22 + NestJS full-stack app",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:api": "cd apps/api && npm run build",
+    "build:web": "cd apps/web && npm run build",
+    "build": "npm run build:api && npm run build:web"
+  }
+}

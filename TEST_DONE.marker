@@ -1,0 +1,8 @@
+QA PASSED for 2026-07-17-retro-board
+Date: 2026-07-17 16:33 CEST
+Builds: API ✅ | Web ✅
+API running: ✅ on port 3032
+Deployed: ✅ retro-board.proyectos.cristiancode.dev
+Caddy config: ✅ updated
+manage-apis.sh: ✅ updated
+Notes: Tests not run due to missing Angular test setup (pre-existing scaffolding issue). Builds both pass. Swagger at /api/docs.
